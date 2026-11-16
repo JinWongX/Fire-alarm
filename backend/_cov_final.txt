@@ -1,0 +1,33 @@
+﻿........................................................................ [ 41%]
+........................................................................ [ 83%]
+.............................                                            [100%]
+
+---------- coverage: platform win32, python 3.11.13-final-0 ----------
+Name                         Stmts   Miss Branch BrPart  Cover   Missing
+------------------------------------------------------------------------
+app\__init__.py                  0      0      0      0   100%
+app\auth.py                     58      0     12      0   100%
+app\database.py                 27      0      8      0   100%
+app\link_engine.py              37      0     12      0   100%
+app\main.py                     53      0      4      0   100%
+app\models.py                  142      0      0      0   100%
+app\routers\__init__.py          0      0      0      0   100%
+app\routers\alarms.py           66      0     18      0   100%
+app\routers\areas.py            10      0      0      0   100%
+app\routers\auth.py             40      0      8      0   100%
+app\routers\devices.py          84      0     34      0   100%
+app\routers\drills.py           54      0     18      0   100%
+app\routers\emergencies.py      45      0      6      0   100%
+app\routers\linkage.py          25      0      4      0   100%
+app\routers\patrols.py          69      0     18      0   100%
+app\routers\plans.py            84      0     30      0   100%
+app\routers\repairs.py          47      0     12      0   100%
+app\routers\stats.py           147      0     52      0   100%
+app\routers\users.py            38      0     14      0   100%
+app\schemas.py                 256      0      4      0   100%
+app\seed.py                     39      0     10      0   100%
+------------------------------------------------------------------------
+TOTAL                         1321      0    264      0   100%
+Coverage JSON written to file coverage.json
+
+173 passed in 159.94s (0:02:39)

@@ -1,0 +1,29 @@
+Coverage baseline (vitest 0.34.6 + @vitest/coverage-v8 0.34.6, provider: v8)
+Date: 2026-09-28
+Command: npm test -- --coverage
+
+All files |  % Stmts: 64.24 |  % Branch: 76.13 |  % Funcs: 62.71 |  % Lines: 64.24
+
+Per-file (Statement %) before enhancements:
+src\api\client.js       100.0
+src\api\index.js        100.0
+src\App.jsx              0.0   (no test)
+src\components\MainLayout.jsx   96.9
+src\components\RequireAuth.jsx  100.0
+src\context\AuthContext.jsx     94.7
+src\pages\Alarms.jsx    91.0
+src\pages\Devices.jsx   91.9
+src\pages\Drills.jsx     0.0   (no test)
+src\pages\Emergencies.jsx  0.0 (no test)
+src\pages\Linkage.jsx    0.0   (no test)
+src\pages\Login.jsx     95.0
+src\pages\Monitor.jsx   96.8
+src\pages\Patrols.jsx   91.8
+src\pages\Plans.jsx     58.5
+src\pages\Repairs.jsx    0.0   (no test)
+src\pages\Stats.jsx     91.3
+src\pages\Users.jsx     80.8
+src\utils\constants.js  100.0
+src\utils\permissions.js 100.0
+
+Targets: Stmts/Lines >=85, Branch >=75, Funcs >=80.

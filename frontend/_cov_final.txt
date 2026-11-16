@@ -1,0 +1,30 @@
+Coverage final (vitest 0.34.6 + @vitest/coverage-v8 0.34.6, provider: v8)
+Date: 2026-09-28
+Command: npm test -- --coverage
+
+All files |  % Stmts: 96.5 |  % Branch: 76.96 |  % Funcs: 82.18 |  % Lines: 96.5
+
+Targets: Stmts/Lines>=85 ✅  Branch>=75 ✅  Funcs>=80 ✅
+Tests: 102 passed (102)
+
+Per-file (Stmts % / Funcs %):
+src\App.jsx                   100.0 / 100.0
+src\api\client.js             100.0 /   -
+src\api\index.js              100.0 /  97.7
+src\components\MainLayout.jsx 100.0 /  66.7
+src\components\RequireAuth.jsx 100.0 / 100.0
+src\context\AuthContext.jsx    94.7 / 100.0
+src\pages\Alarms.jsx           96.3 /  78.9
+src\pages\Devices.jsx          95.0 /  71.4
+src\pages\Drills.jsx           97.4 /  90.5
+src\pages\Emergencies.jsx      96.2 /  73.7
+src\pages\Linkage.jsx          99.4 /  90.9
+src\pages\Login.jsx           100.0 / 100.0
+src\pages\Monitor.jsx          96.8 /  75.0
+src\pages\Patrols.jsx          91.8 /  77.8
+src\pages\Plans.jsx            97.2 /  81.8
+src\pages\Repairs.jsx          98.2 /  93.8
+src\pages\Stats.jsx            98.6 /  40.0
+src\pages\Users.jsx            90.8 /  77.8
+src\utils\constants.js        100.0 /   -
+src\utils\permissions.js      100.0 /   -

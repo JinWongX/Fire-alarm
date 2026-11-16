@@ -1,0 +1,32 @@
+﻿........................................................................ [ 44%]
+........................................................................ [ 88%]
+..................                                                       [100%]
+
+---------- coverage: platform win32, python 3.11.13-final-0 ----------
+Name                         Stmts   Miss Branch BrPart  Cover   Missing
+------------------------------------------------------------------------
+app\__init__.py                  0      0      0      0   100%
+app\auth.py                     58      0     12      0   100%
+app\database.py                 27      0      8      0   100%
+app\link_engine.py              37      0     12      0   100%
+app\main.py                     53      0      4      0   100%
+app\models.py                  142      0      0      0   100%
+app\routers\__init__.py          0      0      0      0   100%
+app\routers\alarms.py           66      0     18      1    99%   100->102
+app\routers\areas.py            10      0      0      0   100%
+app\routers\auth.py             40      0      8      0   100%
+app\routers\devices.py          84      0     34      1    99%   108->107
+app\routers\drills.py           54      0     18      2    97%   42->41, 76->78
+app\routers\emergencies.py      45      0      6      0   100%
+app\routers\linkage.py          25      0      4      0   100%
+app\routers\patrols.py          69      0     18      3    97%   91->100, 111->113, 113->116
+app\routers\plans.py            84      0     30      1    99%   109->108
+app\routers\repairs.py          47      0     12      2    97%   81->85, 83->85
+app\routers\stats.py           147      0     52      0   100%
+app\routers\users.py            38      0     14      1    98%   61->60
+app\schemas.py                 256      1      4      1    99%   61
+app\seed.py                     39      0     10      0   100%
+------------------------------------------------------------------------
+TOTAL                         1321      1    264     12    99%
+
+162 passed in 255.91s (0:04:15)
